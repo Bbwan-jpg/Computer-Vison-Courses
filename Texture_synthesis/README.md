@@ -113,11 +113,3 @@ for d in range(margin):
 2. **Identifier la frontière ciel/ville** : afficher des bandes horizontales à différentes hauteurs pour trouver `split_source` et `split_fill`
 3. **Repérer les éléments distinctifs à exclure** des patches source et ajouter les zones dans `valid_mask`
 4. **Ajuster les paramètres de blending** : `blend_weight_sky` plus bas pour le ciel, `blend_weight` plus haut pour la ville
-
-## Export
-
-```bash
-jupyter nbconvert --to html notebook.ipynb
-```
-
-Pour le PDF, ouvrir le HTML dans un navigateur et `Cmd+P` → Enregistrer en PDF.
